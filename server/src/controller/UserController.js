@@ -1,9 +1,15 @@
 const User = require("../models/User");
 
 class UserController {
-  async show(req, res) {
+  async index(req, res) {
     const users = await User.findAll();
     return res.status(200).json({ ok: true, users });
+  }
+
+  async show(req, res) {
+    const { id } = req.params;
+    const user = await User.findByPk(id);
+    return res.status(200).json({ ok: true, user });
   }
 
   async create(req, res) {

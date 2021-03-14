@@ -9,7 +9,8 @@ routes.get("/", (req, res) => {
   res.json({ message: "Welcome to PSO Engenharia, Mini API Testing." });
 });
 
-routes.get("/users", UserController.show);
+routes.get("/users", UserController.index);
+routes.get("/users/:id", UserController.show);
 routes.post("/users", UserController.create);
 routes.put("/users/:id", UserController.update);
 routes.delete("/users/:id", UserController.delete);
