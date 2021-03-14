@@ -6,7 +6,7 @@
   Teste PSO Engenharia - Programador
 </h3>
 
-<p align="center">Neste teste pude desenvolver uma API com CRUD básico de usuároio</p>
+<p align="center">Neste teste pude desenvolver uma API com CRUD básico de usuário</p>
 
 ## Tecnologias
 
