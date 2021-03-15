@@ -13,6 +13,7 @@
 - Express
 - ReactJS
 - Sequelize
+- Docker
 
 ---
 
@@ -20,6 +21,7 @@
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+- [Docker](https://www.docker.com/)
 
 ---
 
